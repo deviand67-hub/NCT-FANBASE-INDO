@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import Image from "next/image";
 import { notFound } from "next/navigation";
 import Container from "@/components/Container";
 import CategoryBadge from "@/components/CategoryBadge";
@@ -87,13 +86,11 @@ export default async function NewsDetailPage({
         </header>
 
         <div className="relative mb-8 h-56 overflow-hidden sm:h-72">
-          <Image
+          {/* eslint-disable-next-line @next/next/no-img-element */}
+          <img
             src={item.image}
             alt={item.imageAlt}
-            fill
-            sizes="(min-width: 640px) 672px, 100vw"
-            className="object-cover"
-            priority
+            className="absolute inset-0 h-full w-full object-cover"
           />
         </div>
 

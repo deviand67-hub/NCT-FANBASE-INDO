@@ -1,5 +1,4 @@
 import Link from "next/link";
-import Image from "next/image";
 import { NewsItem } from "@/lib/types";
 import { formatDate } from "@/lib/format-date";
 import CategoryBadge from "./CategoryBadge";
@@ -8,12 +7,12 @@ export default function NewsCard({ item, featured = false }: { item: NewsItem; f
   return (
     <article className="group flex h-full flex-col border border-neutral-200 bg-white transition-shadow hover:shadow-md">
       <div className={`relative overflow-hidden ${featured ? "h-48 sm:h-64" : "h-36"}`}>
-        <Image
+        {/* eslint-disable-next-line @next/next/no-img-element */}
+        <img
           src={item.image}
           alt={item.imageAlt}
-          fill
-          sizes={featured ? "(min-width: 1024px) 66vw, 100vw" : "(min-width: 640px) 33vw, 100vw"}
-          className="object-cover"
+          loading="lazy"
+          className="absolute inset-0 h-full w-full object-cover"
         />
       </div>
       <div className="flex flex-1 flex-col gap-2 p-4">

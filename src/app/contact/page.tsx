@@ -1,11 +1,12 @@
 import type { Metadata } from "next";
 import Container from "@/components/Container";
-import ContactForm from "@/components/ContactForm";
+
+const CONTACT_EMAIL = "kontak@nctfanbase.id";
 
 export const metadata: Metadata = {
   title: "Contact Us",
   description:
-    "Hubungi NCT Fanbase untuk pertanyaan, masukan, atau kerja sama seputar komunitas dan website.",
+    "Hubungi NCT Fanbase untuk pertanyaan, masukan, atau kerja sama seputar komunitas dan website melalui email.",
 };
 
 export default function ContactPage() {
@@ -18,18 +19,20 @@ export default function ContactPage() {
         </p>
       </header>
 
-      <div className="grid gap-10 lg:grid-cols-3">
-        <div className="lg:col-span-2">
-          <ContactForm />
-        </div>
-        <aside className="border border-neutral-200 p-5 text-sm text-neutral-700">
-          <h2 className="mb-2 text-sm font-bold text-brand-700">Informasi</h2>
-          <p className="leading-relaxed">
-            Formulir ini digunakan untuk menyampaikan pertanyaan umum, masukan,
-            maupun laporan terkait konten website NCT Fanbase. Kami akan
-            berusaha menindaklanjuti setiap pesan yang masuk sebaik mungkin.
-          </p>
-        </aside>
+      <div className="max-w-2xl text-sm leading-relaxed text-neutral-700">
+        <p>
+          Untuk pertanyaan umum, masukan, maupun laporan terkait konten website
+          NCT Fanbase, silakan hubungi kami melalui email berikut:
+        </p>
+        <p className="mt-4 text-lg font-bold text-brand-700">
+          <a href={`mailto:${CONTACT_EMAIL}`} className="hover:underline">
+            {CONTACT_EMAIL}
+          </a>
+        </p>
+        <p className="mt-4">
+          Kami akan berusaha menindaklanjuti setiap pesan yang masuk sebaik
+          mungkin.
+        </p>
       </div>
     </Container>
   );
