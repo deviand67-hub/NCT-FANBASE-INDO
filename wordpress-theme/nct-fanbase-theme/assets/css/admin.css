@@ -1,0 +1,20 @@
+/* Admin styles for the Schedule custom post type meta box. */
+.nct-schedule-meta-box p {
+	margin-bottom: 12px;
+}
+
+.nct-schedule-meta-box label {
+	display: block;
+	font-weight: 600;
+	margin-bottom: 4px;
+}
+
+.nct-schedule-meta-box input[type="text"],
+.nct-schedule-meta-box input[type="date"] {
+	width: 100%;
+}
+
+.nct-schedule-meta-box .description {
+	color: #646970;
+	font-style: italic;
+}

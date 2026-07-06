@@ -1,0 +1,22 @@
+/*
+Theme Name: NCT Fanbase
+Theme URI: https://nctfanbase.example.com
+Author: NCT Fanbase Team
+Author URI: https://nctfanbase.example.com
+Description: Clean, green-and-white news portal theme for NCT Fanbase Indonesia, converted from the original custom front-end into a fully dynamic WordPress theme. Includes News (posts + categories), Schedule (custom post type), Profil, About Us, Contact Us, Disclaimer, Privacy Policy, and Terms & Conditions.
+Version: 1.0.0
+Requires at least: 5.0
+Tested up to: 6.6
+Requires PHP: 7.1
+License: GNU General Public License v2 or later
+License URI: https://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: nct-fanbase
+Tags: news, blog, custom-menu, custom-logo, featured-images, translation-ready, threaded-comments
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+
+All real stylesheet rules live in assets/css/main.css and are loaded via
+wp_enqueue_style() from inc/enqueue.php — this file intentionally only
+carries the required theme header block above.
+*/
