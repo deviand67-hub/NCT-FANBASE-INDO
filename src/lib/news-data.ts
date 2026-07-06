@@ -1,23 +1,4 @@
-import { NewsItem, NewsCategory } from "./types";
-
-const CATEGORY_IMAGE: Record<NewsCategory, { image: string; imageAlt: string }> = {
-  Pengumuman: {
-    image: "/images/news/pengumuman.svg",
-    imageAlt: "Banner berita pengumuman resmi NCT",
-  },
-  Berita: {
-    image: "/images/news/berita.svg",
-    imageAlt: "Banner berita terbaru seputar NCT",
-  },
-  "Update Jadwal": {
-    image: "/images/news/update-jadwal.svg",
-    imageAlt: "Banner update jadwal kegiatan NCT",
-  },
-  Komunitas: {
-    image: "/images/news/komunitas.svg",
-    imageAlt: "Banner berita komunitas NCT Fanbase",
-  },
-};
+import { NewsItem } from "./types";
 
 export const newsList: NewsItem[] = [
   {
@@ -38,7 +19,8 @@ export const newsList: NewsItem[] = [
       "Dengan rangkaian agenda yang padat sepanjang tahun, NCT 2026 menjadi salah satu proyek perayaan terbesar yang pernah digelar NCT, dan tentunya menjadi kabar yang dinantikan penggemar di seluruh dunia, termasuk di Indonesia. NCT Fanbase akan terus memantau perkembangan setiap agenda ini dan membagikannya melalui [halaman Schedule NCT Fanbase](/schedule).",
       "Bagi penggemar di Indonesia, momentum ini juga menjadi kesempatan untuk melihat kembali perjalanan panjang NCT dari awal debut hingga menjadi salah satu grup dengan sistem sub-unit paling kompleks di industri musik Korea. Setiap tahapan dalam proyek NCT 2026 diperkirakan akan terus menghadirkan kejutan baru bagi para penggemar setianya.",
     ],
-    ...CATEGORY_IMAGE.Pengumuman,
+    image: "/images/news/nct-2026-anniversary.jpg",
+    imageAlt: "Suasana konser dengan lampu panggung dan penonton, mewakili semangat perayaan 10 tahun NCT",
   },
   {
     slug: "nct-jnjm-umumkan-fan-meeting-tour-duality-singgah-jakarta",
@@ -60,7 +42,8 @@ export const newsList: NewsItem[] = [
       "Antusiasme menyambut debut dan tur pertama NCT JNJM juga menjadi salah satu sorotan utama dalam rangkaian perayaan 10 tahun NCT 2026, mengingat unit ini merupakan formasi baru yang diperkenalkan tepat di tahun spesial tersebut bagi seluruh keluarga besar NCT. Kehadiran mereka melengkapi rangkaian comeback dan tur dari sub-unit NCT lain sepanjang tahun ini.",
       "Informasi lengkap mengenai jadwal setiap kota dalam tur ini dapat dilihat pada [halaman Schedule NCT Fanbase](/schedule).",
     ],
-    ...CATEGORY_IMAGE.Berita,
+    image: "/images/news/jnjm-fanmeeting-jakarta.jpg",
+    imageAlt: "Suasana penonton konser dengan tangan terangkat, mewakili antusiasme fan meeting NCT JNJM",
   },
   {
     slug: "mark-resmi-tinggalkan-nct-setelah-10-tahun",
@@ -81,7 +64,8 @@ export const newsList: NewsItem[] = [
       "Perubahan formasi seperti ini bukan hal baru bagi grup dengan sistem sebesar NCT, yang memang dirancang untuk tetap fleksibel dan terus berkembang mengikuti perjalanan karier masing-masing anggotanya dari waktu ke waktu. Fleksibilitas semacam ini pula yang memungkinkan NCT terus menghadirkan formasi dan proyek baru meski menghadapi perubahan susunan anggota, sebagaimana terlihat dari kemunculan unit-unit baru seperti NCT JNJM tak lama setelah perubahan ini terjadi.",
       "Susunan lengkap dan terbaru seluruh sub-unit NCT dapat dilihat pada [halaman Profil NCT Fanbase](/profil).",
     ],
-    ...CATEGORY_IMAGE.Berita,
+    image: "/images/news/mark-farewell.jpg",
+    imageAlt: "Siluet penampil di atas panggung dengan tata cahaya biru yang tenang",
   },
   {
     slug: "nct-wish-rilis-album-studio-pertama",
@@ -103,7 +87,8 @@ export const newsList: NewsItem[] = [
       "Perkembangan ini juga menegaskan bahwa unit generasi baru seperti NCT WISH mampu mengimbangi ritme aktivitas unit-unit senior lain di dalam sistem NCT, sekaligus membuktikan strategi regenerasi grup ini berjalan dengan baik selama satu dekade terakhir perjalanan NCT secara keseluruhan.",
       "Informasi lengkap mengenai rangkaian tur ini dapat dilihat pada [halaman Schedule NCT Fanbase](/schedule).",
     ],
-    ...CATEGORY_IMAGE.Berita,
+    image: "/images/news/nct-wish-album.jpg",
+    imageAlt: "Penampil bernyanyi di atas panggung kecil dengan lampu sorot biru dan ungu",
   },
   {
     slug: "nct-127-umumkan-comeback-kuartal-3-2026",
@@ -124,7 +109,8 @@ export const newsList: NewsItem[] = [
       "Comeback ini juga akan menjadi tolok ukur penting untuk melihat bagaimana NCT 127 beradaptasi dengan formasi barunya di panggung musik utama, setelah sebelumnya lebih banyak tampil melalui berbagai promosi dan penampilan pendukung. Para penggemar pun menantikan bagaimana ketujuh anggota akan menghadirkan konsep musik dan panggung yang segar pada comeback mendatang.",
       "NCT Fanbase akan terus memantau perkembangan comeback ini dan membagikan informasi lebih lanjut begitu detail resmi diumumkan melalui [halaman Schedule NCT Fanbase](/schedule).",
     ],
-    ...CATEGORY_IMAGE.Berita,
+    image: "/images/news/nct-127-comeback.jpg",
+    imageAlt: "Siluet tangan penonton terangkat di depan lampu panggung konser, mewakili antisipasi comeback",
   },
   {
     slug: "nct-buka-pop-up-store-nct-2026-seoul",
@@ -145,7 +131,8 @@ export const newsList: NewsItem[] = [
       "Penyelenggaraan acara seperti ini sekaligus menjadi penanda bahwa rangkaian perayaan 10 tahun NCT 2026 tidak hanya berfokus pada rilisan musik, tetapi juga pada pengalaman langsung bersama penggemar dari berbagai generasi, mulai dari penggemar sejak debut 2016 hingga penggemar unit-unit termuda seperti NCT WISH dan NCT JNJM yang baru bergabung dalam beberapa tahun terakhir.",
       "Untuk mengikuti agenda-agenda lain dalam rangkaian besar NCT 2026 sepanjang tahun ini, kunjungi [halaman Schedule NCT Fanbase](/schedule) yang terus kami perbarui secara berkala.",
     ],
-    ...CATEGORY_IMAGE["Update Jadwal"],
+    image: "/images/news/nct-popup-store.jpg",
+    imageAlt: "Rak pajangan gantungan kunci dan merchandise warna-warni di sebuah toko di Seoul",
   },
   {
     slug: "wayv-siapkan-comeback-album-dan-tur",
@@ -166,7 +153,8 @@ export const newsList: NewsItem[] = [
       "Dengan basis penggemar yang loyal di kawasan Tiongkok dan Asia Tenggara, comeback WayV berpotensi menghadirkan salah satu momen paling dinantikan dalam rangkaian besar NCT 2026 tahun ini, terlebih dengan identitas musik khas yang selama ini menjadi ciri utama unit ini sejak pertama kali diperkenalkan kepada publik pada tahun 2019 silam.",
       "Susunan lengkap anggota WayV dapat dilihat pada [halaman Profil NCT Fanbase](/profil), sementara jadwal lengkap comeback ini akan segera diperbarui pada halaman Schedule begitu tanggal resmi diumumkan oleh pihak agensi kepada publik secara luas.",
     ],
-    ...CATEGORY_IMAGE.Berita,
+    image: "/images/news/wayv-comeback.jpg",
+    imageAlt: "Penampil bernyanyi di depan penonton dengan lampu sorot ungu dan biru di ruangan indoor",
   },
   {
     slug: "nct-dream-siapkan-meet-and-greet-album-baru",
@@ -189,7 +177,8 @@ export const newsList: NewsItem[] = [
       "Format seperti ini juga memberi ruang bagi NCT DREAM untuk berinteraksi lebih personal dengan penggemar sebelum kembali disibukkan dengan jadwal promosi comeback yang biasanya cukup padat dan menyita banyak waktu.",
       "Pantau terus perkembangan jadwal lengkap NCT DREAM melalui [halaman Schedule NCT Fanbase](/schedule).",
     ],
-    ...CATEGORY_IMAGE.Berita,
+    image: "/images/news/nct-dream-meet-greet.jpg",
+    imageAlt: "Penonton mengangkat tangan di bawah lampu panggung ungu dan putih dalam suasana intim",
   },
   {
     slug: "yuta-bintangi-lagu-tema-kamen-rider-zets",
@@ -212,7 +201,8 @@ export const newsList: NewsItem[] = [
       "Bagi penggemar internasional, aktivitas solo seperti ini juga menjadi kesempatan untuk mengenal lebih jauh sisi lain dari masing-masing anggota di luar panggung NCT 127, sekaligus memperlihatkan keluwesan Yuta dalam berbagai bidang hiburan di Jepang, mulai dari musik, akting lewat tie-in serial televisi, hingga program variety show populer.",
       "Ikuti terus kabar member lainnya, termasuk seluruh anggota NCT 127 yang lain, melalui [halaman Profil NCT Fanbase](/profil) yang senantiasa diperbarui secara berkala oleh tim redaksi kami.",
     ],
-    ...CATEGORY_IMAGE.Berita,
+    image: "/images/news/yuta-tv-broadcast.jpg",
+    imageAlt: "Detail close-up lensa kamera video profesional, mewakili aktivitas siaran televisi",
   },
   {
     slug: "nct-wish-rilis-single-jepang-yo-i-don-boy-meets-girl",
@@ -235,7 +225,8 @@ export const newsList: NewsItem[] = [
       "Konsistensi aktivitas semacam ini juga membantu NCT WISH memperluas pengenalan nama mereka di pasar musik Jepang yang dikenal cukup kompetitif, sekaligus memperkuat posisi mereka sebagai salah satu unit NCT dengan pertumbuhan tercepat. Popularitas yang terus meningkat ini turut membuka peluang lebih besar bagi NCT WISH untuk memperluas jangkauan tur mereka ke lebih banyak negara pada masa mendatang, termasuk kemungkinan kembali menyambangi Asia Tenggara.",
       "Jadwal lengkap seluruh aktivitas NCT WISH, termasuk rangkaian tur konser mereka, dapat dilihat pada [halaman Schedule NCT Fanbase](/schedule).",
     ],
-    ...CATEGORY_IMAGE["Update Jadwal"],
+    image: "/images/news/nct-wish-japan-single.jpg",
+    imageAlt: "Jalanan Jepang di malam hari dengan lampu neon dan papan nama toko, mewakili aktivitas NCT WISH di Jepang",
   },
 ];
 
