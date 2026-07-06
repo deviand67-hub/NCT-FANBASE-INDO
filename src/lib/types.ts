@@ -7,11 +7,15 @@ export interface NewsItem {
   date: string;
   excerpt: string;
   content: string[];
+  image: string;
+  imageAlt: string;
 }
 
 export interface ScheduleItem {
   date: string;
+  displayDate?: string;
   title: string;
   description: string;
   tag: string;
+  source?: string;
 }

@@ -1,0 +1,19 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Banner kategori Komunitas NCT Fanbase">
+  <defs>
+    <linearGradient id="bgK" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0f4d30"/>
+      <stop offset="100%" stop-color="#3fb072"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="630" fill="url(#bgK)"/>
+  <g fill="#ffffff" fill-opacity="0.12">
+    <circle cx="900" cy="200" r="70"/>
+    <circle cx="1010" cy="260" r="70"/>
+    <circle cx="960" cy="360" r="70"/>
+    <circle cx="1080" cy="150" r="45"/>
+  </g>
+  <rect x="80" y="150" width="200" height="56" rx="4" fill="#ffffff" fill-opacity="0.16"/>
+  <text x="100" y="188" font-family="Arial, Helvetica, sans-serif" font-size="26" font-weight="700" fill="#ffffff">KOMUNITAS</text>
+  <text x="80" y="300" font-family="Arial, Helvetica, sans-serif" font-size="72" font-weight="900" fill="#ffffff">NCT FANBASE</text>
+  <text x="80" y="350" font-family="Arial, Helvetica, sans-serif" font-size="26" fill="#e3f3e9">Portal Komunitas Penggemar NCT Indonesia</text>
+</svg>

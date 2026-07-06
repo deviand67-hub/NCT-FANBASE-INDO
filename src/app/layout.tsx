@@ -27,6 +27,14 @@ export const metadata: Metadata = {
     siteName: "NCT Fanbase",
     locale: "id_ID",
     type: "website",
+    images: [{ url: "/images/og-default.svg", width: 1200, height: 630, alt: "NCT Fanbase" }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "NCT Fanbase — Kabar dan Informasi Komunitas NCT Indonesia",
+    description:
+      "Portal berita dan informasi komunitas penggemar NCT di Indonesia. Ikuti kabar terbaru dan jadwal kegiatan komunitas.",
+    images: ["/images/og-default.svg"],
   },
   robots: {
     index: true,

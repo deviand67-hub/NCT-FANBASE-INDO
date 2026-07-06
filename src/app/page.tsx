@@ -3,13 +3,13 @@ import Container from "@/components/Container";
 import NewsCard from "@/components/NewsCard";
 import CategoryBadge from "@/components/CategoryBadge";
 import { getLatestNews } from "@/lib/news-data";
-import { getUpcomingSchedule } from "@/lib/schedule-data";
+import { getNextSchedule } from "@/lib/schedule-data";
 import { formatDate } from "@/lib/format-date";
 
 export default function Home() {
   const latestNews = getLatestNews(7);
   const [featured, ...rest] = latestNews;
-  const upcoming = getUpcomingSchedule(4);
+  const upcoming = getNextSchedule(4);
 
   return (
     <>
@@ -112,7 +112,7 @@ export default function Home() {
             {upcoming.map((item) => (
               <li key={item.title} className="flex flex-col gap-2 border border-neutral-200 bg-white p-4">
                 <time dateTime={item.date} className="text-xs font-semibold text-brand-700">
-                  {formatDate(item.date)}
+                  {item.displayDate ?? formatDate(item.date)}
                 </time>
                 <p className="text-sm font-bold text-neutral-900">{item.title}</p>
                 <p className="text-xs leading-relaxed text-neutral-600">{item.description}</p>

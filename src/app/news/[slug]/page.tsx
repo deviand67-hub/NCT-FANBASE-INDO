@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import Link from "next/link";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import Container from "@/components/Container";
 import CategoryBadge from "@/components/CategoryBadge";
@@ -27,6 +28,13 @@ export async function generateMetadata({
       description: item.excerpt,
       type: "article",
       publishedTime: item.date,
+      images: [{ url: item.image, width: 1200, height: 630, alt: item.imageAlt }],
+    },
+    twitter: {
+      card: "summary_large_image",
+      title: item.title,
+      description: item.excerpt,
+      images: [item.image],
     },
   };
 }
@@ -77,11 +85,15 @@ export default async function NewsDetailPage({
           </h1>
         </header>
 
-        <div
-          aria-hidden="true"
-          className="mb-8 flex h-56 items-center justify-center bg-gradient-to-br from-brand-700 to-brand-500 sm:h-72"
-        >
-          <span className="text-3xl font-black tracking-wide text-white/90">NCT</span>
+        <div className="relative mb-8 h-56 overflow-hidden sm:h-72">
+          <Image
+            src={item.image}
+            alt={item.imageAlt}
+            fill
+            sizes="(min-width: 640px) 672px, 100vw"
+            className="object-cover"
+            priority
+          />
         </div>
 
         <div className="prose-article text-neutral-800">

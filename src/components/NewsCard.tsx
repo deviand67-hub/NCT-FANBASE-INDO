@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { NewsItem } from "@/lib/types";
 import { formatDate } from "@/lib/format-date";
 import CategoryBadge from "./CategoryBadge";
@@ -6,13 +7,14 @@ import CategoryBadge from "./CategoryBadge";
 export default function NewsCard({ item, featured = false }: { item: NewsItem; featured?: boolean }) {
   return (
     <article className="group flex h-full flex-col border border-neutral-200 bg-white transition-shadow hover:shadow-md">
-      <div
-        aria-hidden="true"
-        className={`flex items-center justify-center bg-gradient-to-br from-brand-700 to-brand-500 ${
-          featured ? "h-48 sm:h-64" : "h-36"
-        }`}
-      >
-        <span className="text-2xl font-black tracking-wide text-white/90">NCT</span>
+      <div className={`relative overflow-hidden ${featured ? "h-48 sm:h-64" : "h-36"}`}>
+        <Image
+          src={item.image}
+          alt={item.imageAlt}
+          fill
+          sizes={featured ? "(min-width: 1024px) 66vw, 100vw" : "(min-width: 640px) 33vw, 100vw"}
+          className="object-cover"
+        />
       </div>
       <div className="flex flex-1 flex-col gap-2 p-4">
         <div className="flex items-center gap-2 text-xs text-neutral-500">
