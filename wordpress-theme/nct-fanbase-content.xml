@@ -2,9 +2,11 @@
 <!--
 	NCT Fanbase — WordPress demo content (WXR).
 
-	BEFORE IMPORTING: replace every occurrence of the placeholder domain
-	https://example.com in this file with your real site URL (find & replace
-	in a text editor). See the theme's INSTALLATION.md for full steps.
+	All URLs in this file already point to https://nctfanbase.com. If your
+	actual WordPress site uses a different domain, replace every occurrence
+	of https://nctfanbase.com in this file with your real site URL (find &
+	replace in a text editor) before importing. See the theme's
+	INSTALLATION.md for full steps.
 -->
 <rss version="2.0"
 	xmlns:excerpt="http://wordpress.org/export/1.2/excerpt/"
@@ -15,13 +17,13 @@
 >
 <channel>
 	<title>NCT Fanbase</title>
-	<link>https://example.com</link>
+	<link>https://nctfanbase.com</link>
 	<description>Portal Komunitas Penggemar NCT Indonesia</description>
 	<pubDate>Mon, 06 Jul 2026 00:00:00 +0000</pubDate>
 	<language>id-ID</language>
 	<wp:wxr_version>1.2</wp:wxr_version>
-	<wp:base_site_url>https://example.com</wp:base_site_url>
-	<wp:base_blog_url>https://example.com</wp:base_blog_url>
+	<wp:base_site_url>https://nctfanbase.com</wp:base_site_url>
+	<wp:base_blog_url>https://nctfanbase.com</wp:base_blog_url>
 
 	<wp:author>
 		<wp:author_id>1</wp:author_id>
@@ -65,10 +67,10 @@
 
 	<item>
 		<title>nct-2026-anniversary</title>
-		<link>https://example.com/nct-2026-anniversary/</link>
+		<link>https://nctfanbase.com/nct-2026-anniversary/</link>
 		<pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/wp-content/uploads/2026/04/nct-2026-anniversary.jpg</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/wp-content/uploads/2026/04/nct-2026-anniversary.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -86,7 +88,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-2026-anniversary.jpg</wp:attachment_url>
+		<wp:attachment_url>https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-2026-anniversary.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
 			<wp:meta_value><![CDATA[Suasana konser dengan lampu panggung dan penonton, mewakili semangat perayaan 10 tahun NCT]]></wp:meta_value>
@@ -95,10 +97,10 @@
 
 	<item>
 		<title>jnjm-fanmeeting-jakarta</title>
-		<link>https://example.com/jnjm-fanmeeting-jakarta/</link>
+		<link>https://nctfanbase.com/jnjm-fanmeeting-jakarta/</link>
 		<pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/wp-content/uploads/2026/04/jnjm-fanmeeting-jakarta.jpg</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/wp-content/uploads/2026/04/jnjm-fanmeeting-jakarta.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -116,7 +118,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/jnjm-fanmeeting-jakarta.jpg</wp:attachment_url>
+		<wp:attachment_url>https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/jnjm-fanmeeting-jakarta.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
 			<wp:meta_value><![CDATA[Suasana penonton konser dengan tangan terangkat, mewakili antusiasme fan meeting NCT JNJM]]></wp:meta_value>
@@ -125,10 +127,10 @@
 
 	<item>
 		<title>mark-farewell</title>
-		<link>https://example.com/mark-farewell/</link>
+		<link>https://nctfanbase.com/mark-farewell/</link>
 		<pubDate>Wed, 08 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/wp-content/uploads/2026/04/mark-farewell.jpg</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/wp-content/uploads/2026/04/mark-farewell.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -146,7 +148,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/mark-farewell.jpg</wp:attachment_url>
+		<wp:attachment_url>https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/mark-farewell.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
 			<wp:meta_value><![CDATA[Siluet penampil di atas panggung dengan tata cahaya biru yang tenang]]></wp:meta_value>
@@ -155,10 +157,10 @@
 
 	<item>
 		<title>nct-wish-album</title>
-		<link>https://example.com/nct-wish-album/</link>
+		<link>https://nctfanbase.com/nct-wish-album/</link>
 		<pubDate>Mon, 20 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/wp-content/uploads/2026/04/nct-wish-album.jpg</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/wp-content/uploads/2026/04/nct-wish-album.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -176,7 +178,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-wish-album.jpg</wp:attachment_url>
+		<wp:attachment_url>https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-wish-album.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
 			<wp:meta_value><![CDATA[Penampil bernyanyi di atas panggung kecil dengan lampu sorot biru dan ungu]]></wp:meta_value>
@@ -185,10 +187,10 @@
 
 	<item>
 		<title>nct-127-comeback</title>
-		<link>https://example.com/nct-127-comeback/</link>
+		<link>https://nctfanbase.com/nct-127-comeback/</link>
 		<pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/wp-content/uploads/2026/05/nct-127-comeback.jpg</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/wp-content/uploads/2026/05/nct-127-comeback.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -206,7 +208,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-127-comeback.jpg</wp:attachment_url>
+		<wp:attachment_url>https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-127-comeback.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
 			<wp:meta_value><![CDATA[Siluet tangan penonton terangkat di depan lampu panggung konser, mewakili antisipasi comeback]]></wp:meta_value>
@@ -215,10 +217,10 @@
 
 	<item>
 		<title>nct-popup-store</title>
-		<link>https://example.com/nct-popup-store/</link>
+		<link>https://nctfanbase.com/nct-popup-store/</link>
 		<pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/wp-content/uploads/2026/05/nct-popup-store.jpg</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/wp-content/uploads/2026/05/nct-popup-store.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -236,7 +238,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-popup-store.jpg</wp:attachment_url>
+		<wp:attachment_url>https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-popup-store.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
 			<wp:meta_value><![CDATA[Rak pajangan gantungan kunci dan merchandise warna-warni di sebuah toko di Seoul]]></wp:meta_value>
@@ -245,10 +247,10 @@
 
 	<item>
 		<title>wayv-comeback</title>
-		<link>https://example.com/wayv-comeback/</link>
+		<link>https://nctfanbase.com/wayv-comeback/</link>
 		<pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/wp-content/uploads/2026/04/wayv-comeback.jpg</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/wp-content/uploads/2026/04/wayv-comeback.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -266,7 +268,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/wayv-comeback.jpg</wp:attachment_url>
+		<wp:attachment_url>https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/wayv-comeback.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
 			<wp:meta_value><![CDATA[Penampil bernyanyi di depan penonton dengan lampu sorot ungu dan biru di ruangan indoor]]></wp:meta_value>
@@ -275,10 +277,10 @@
 
 	<item>
 		<title>nct-dream-meet-greet</title>
-		<link>https://example.com/nct-dream-meet-greet/</link>
+		<link>https://nctfanbase.com/nct-dream-meet-greet/</link>
 		<pubDate>Sun, 12 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/wp-content/uploads/2026/04/nct-dream-meet-greet.jpg</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/wp-content/uploads/2026/04/nct-dream-meet-greet.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -296,7 +298,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-dream-meet-greet.jpg</wp:attachment_url>
+		<wp:attachment_url>https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-dream-meet-greet.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
 			<wp:meta_value><![CDATA[Penonton mengangkat tangan di bawah lampu panggung ungu dan putih dalam suasana intim]]></wp:meta_value>
@@ -305,10 +307,10 @@
 
 	<item>
 		<title>yuta-tv-broadcast</title>
-		<link>https://example.com/yuta-tv-broadcast/</link>
+		<link>https://nctfanbase.com/yuta-tv-broadcast/</link>
 		<pubDate>Sun, 28 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/wp-content/uploads/2026/06/yuta-tv-broadcast.jpg</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/wp-content/uploads/2026/06/yuta-tv-broadcast.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -326,7 +328,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/yuta-tv-broadcast.jpg</wp:attachment_url>
+		<wp:attachment_url>https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/yuta-tv-broadcast.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
 			<wp:meta_value><![CDATA[Detail close-up lensa kamera video profesional, mewakili aktivitas siaran televisi]]></wp:meta_value>
@@ -335,10 +337,10 @@
 
 	<item>
 		<title>nct-wish-japan-single</title>
-		<link>https://example.com/nct-wish-japan-single/</link>
+		<link>https://nctfanbase.com/nct-wish-japan-single/</link>
 		<pubDate>Thu, 02 Jul 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/wp-content/uploads/2026/07/nct-wish-japan-single.jpg</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/wp-content/uploads/2026/07/nct-wish-japan-single.jpg</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -356,7 +358,7 @@
 		<wp:post_type>attachment</wp:post_type>
 		<wp:post_password></wp:post_password>
 		<wp:is_sticky>0</wp:is_sticky>
-		<wp:attachment_url>https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-wish-japan-single.jpg</wp:attachment_url>
+		<wp:attachment_url>https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/nct-wish-japan-single.jpg</wp:attachment_url>
 		<wp:postmeta>
 			<wp:meta_key>_wp_attachment_image_alt</wp:meta_key>
 			<wp:meta_value><![CDATA[Jalanan Jepang di malam hari dengan lampu neon dan papan nama toko, mewakili aktivitas NCT WISH di Jepang]]></wp:meta_value>
@@ -369,10 +371,10 @@
 
 	<item>
 		<title>NCT Luncurkan Proyek 10 Tahun &#8220;NCT 2026&#8221;</title>
-		<link>https://example.com/nct-luncurkan-proyek-10-tahun-nct-2026/</link>
+		<link>https://nctfanbase.com/nct-luncurkan-proyek-10-tahun-nct-2026/</link>
 		<pubDate>Thu, 09 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=200</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=200</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>SM Entertainment resmi mengumumkan proyek besar bertajuk NCT 2026 pada 9 April 2026, sebagai bentuk perayaan satu dekade perjalanan NCT sejak debut pertamanya pada tahun 2016. Proyek ini diusung dengan slogan "Everything, All At Once, Neo", yang merangkum perjalanan panjang NCT sekaligus arah baru grup ini ke depan.</p>
 <h2>Rangkaian Album dan Tur Setiap Sub-unit</h2>
@@ -381,7 +383,7 @@
 <p>Momentum satu dekade ini juga diwarnai dengan hadirnya unit terbaru, NCT JNJM, yang beranggotakan Jeno dan Jaemin serta resmi debut pada Februari 2026 melalui EP Both Sides. Kehadiran unit baru ini menunjukkan bahwa sistem NCT yang terus berkembang masih akan terus menghadirkan formasi dan proyek baru di tahun-tahun mendatang.</p>
 <h2>Pop-up Store dan Pameran Khusus</h2>
 <p>Selain rilisan musik, NCT 2026 juga menghadirkan pop-up store spesial di Seoul yang berlangsung dari 15 hingga 23 Mei 2026, serta pameran khusus yang didedikasikan untuk merayakan perjalanan NCT dan dijadwalkan dibuka pada kuartal ketiga 2026.</p>
-<p>Dengan rangkaian agenda yang padat sepanjang tahun, NCT 2026 menjadi salah satu proyek perayaan terbesar yang pernah digelar NCT, dan tentunya menjadi kabar yang dinantikan penggemar di seluruh dunia, termasuk di Indonesia. NCT Fanbase akan terus memantau perkembangan setiap agenda ini dan membagikannya melalui <a href="https://example.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>
+<p>Dengan rangkaian agenda yang padat sepanjang tahun, NCT 2026 menjadi salah satu proyek perayaan terbesar yang pernah digelar NCT, dan tentunya menjadi kabar yang dinantikan penggemar di seluruh dunia, termasuk di Indonesia. NCT Fanbase akan terus memantau perkembangan setiap agenda ini dan membagikannya melalui <a href="https://nctfanbase.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>
 <p>Bagi penggemar di Indonesia, momentum ini juga menjadi kesempatan untuk melihat kembali perjalanan panjang NCT dari awal debut hingga menjadi salah satu grup dengan sistem sub-unit paling kompleks di industri musik Korea. Setiap tahapan dalam proyek NCT 2026 diperkirakan akan terus menghadirkan kejutan baru bagi para penggemar setianya.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[SM Entertainment resmi mengumumkan proyek perayaan 10 tahun NCT bertajuk NCT 2026, mencakup rangkaian album, tur, dan pengalaman fan sepanjang tahun.]]></excerpt:encoded>
 		<wp:post_id>200</wp:post_id>
@@ -407,10 +409,10 @@
 
 	<item>
 		<title>NCT JNJM Umumkan Fan Meeting Tour DUALITY di Jakarta</title>
-		<link>https://example.com/nct-jnjm-umumkan-fan-meeting-tour-duality-singgah-jakarta/</link>
+		<link>https://nctfanbase.com/nct-jnjm-umumkan-fan-meeting-tour-duality-singgah-jakarta/</link>
 		<pubDate>Tue, 07 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=201</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=201</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>NCT JNJM, unit yang beranggotakan Jeno dan Jaemin serta resmi debut pada Februari 2026 melalui EP Both Sides, mengumumkan fan meeting tour Asia pertama mereka bertajuk 2026 NCT JNJM FANMEETING TOUR [DUALITY] pada 7 April 2026.</p>
 <h2>Enam Kota, Termasuk Jakarta</h2>
@@ -422,7 +424,7 @@
 <p>Debut dan tur NCT JNJM turut menjadi bagian dari rangkaian besar proyek 10 tahun NCT 2026 yang menghadirkan berbagai agenda dari seluruh sub-unit sepanjang tahun. Sebagai unit duo, format NCT JNJM cukup mirip dengan konsep unit tetap beranggotakan sedikit orang seperti NCT DoJaeJung, meski dengan warna musik dan konsep panggung yang berbeda.</p>
 <p>Kehadiran unit-unit kecil seperti ini menunjukkan fleksibilitas sistem NCT dalam menghadirkan variasi format grup, mulai dari unit besar seperti NCT 127 hingga unit duo seperti NCT JNJM.</p>
 <p>Antusiasme menyambut debut dan tur pertama NCT JNJM juga menjadi salah satu sorotan utama dalam rangkaian perayaan 10 tahun NCT 2026, mengingat unit ini merupakan formasi baru yang diperkenalkan tepat di tahun spesial tersebut bagi seluruh keluarga besar NCT. Kehadiran mereka melengkapi rangkaian comeback dan tur dari sub-unit NCT lain sepanjang tahun ini.</p>
-<p>Informasi lengkap mengenai jadwal setiap kota dalam tur ini dapat dilihat pada <a href="https://example.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>]]></content:encoded>
+<p>Informasi lengkap mengenai jadwal setiap kota dalam tur ini dapat dilihat pada <a href="https://nctfanbase.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[NCT JNJM, unit baru Jeno dan Jaemin, mengumumkan fan meeting tour Asia pertama bertajuk DUALITY dengan Jakarta sebagai salah satu kota persinggahan.]]></excerpt:encoded>
 		<wp:post_id>201</wp:post_id>
 		<wp:post_date><![CDATA[2026-04-07 09:00:00]]></wp:post_date>
@@ -447,10 +449,10 @@
 
 	<item>
 		<title>Mark Resmi Tinggalkan NCT Setelah 10 Tahun Berkarier</title>
-		<link>https://example.com/mark-resmi-tinggalkan-nct-setelah-10-tahun/</link>
+		<link>https://nctfanbase.com/mark-resmi-tinggalkan-nct-setelah-10-tahun/</link>
 		<pubDate>Wed, 08 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=202</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=202</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>SM Entertainment mengonfirmasi bahwa Mark resmi menyelesaikan kontraknya pada 8 April 2026, tepat sepuluh tahun sejak debut pertamanya bersama NCT. Dengan berakhirnya kontrak tersebut, Mark turut meninggalkan seluruh sub-unit NCT yang selama ini ia jalani, termasuk NCT 127 dan NCT DREAM.</p>
 <h2>Satu Dekade Bersama NCT</h2>
@@ -461,7 +463,7 @@
 <h2>Konteks Umum di Industri Musik Korea</h2>
 <p>Berakhirnya kontrak setelah tujuh hingga sepuluh tahun merupakan hal yang cukup umum terjadi di industri musik Korea, mengingat masa kontrak standar artis idola umumnya berada pada rentang tersebut. Setiap anggota berhak menentukan langkah kariernya masing-masing setelah masa kontrak berakhir, termasuk memilih untuk melanjutkan atau mengakhiri aktivitas bersama agensi maupun grup asalnya.</p>
 <p>Perubahan formasi seperti ini bukan hal baru bagi grup dengan sistem sebesar NCT, yang memang dirancang untuk tetap fleksibel dan terus berkembang mengikuti perjalanan karier masing-masing anggotanya dari waktu ke waktu. Fleksibilitas semacam ini pula yang memungkinkan NCT terus menghadirkan formasi dan proyek baru meski menghadapi perubahan susunan anggota, sebagaimana terlihat dari kemunculan unit-unit baru seperti NCT JNJM tak lama setelah perubahan ini terjadi.</p>
-<p>Susunan lengkap dan terbaru seluruh sub-unit NCT dapat dilihat pada <a href="https://example.com/profil/">halaman Profil NCT Fanbase</a>.</p>]]></content:encoded>
+<p>Susunan lengkap dan terbaru seluruh sub-unit NCT dapat dilihat pada <a href="https://nctfanbase.com/profil/">halaman Profil NCT Fanbase</a>.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[Mark resmi mengakhiri kontraknya bersama SM Entertainment pada 8 April 2026, tepat 10 tahun sejak debut pertamanya, dan meninggalkan seluruh unit NCT.]]></excerpt:encoded>
 		<wp:post_id>202</wp:post_id>
 		<wp:post_date><![CDATA[2026-04-08 09:00:00]]></wp:post_date>
@@ -486,10 +488,10 @@
 
 	<item>
 		<title>NCT WISH Rilis Album Studio Pertama pada April 2026</title>
-		<link>https://example.com/nct-wish-rilis-album-studio-pertama/</link>
+		<link>https://nctfanbase.com/nct-wish-rilis-album-studio-pertama/</link>
 		<pubDate>Mon, 20 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=203</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=203</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>NCT WISH resmi merilis album studio penuh pertama mereka pada 20 April 2026. Perilisan ini menjadi pencapaian penting bagi unit generasi baru NCT yang debut pada tahun 2024 dan selama ini dikenal aktif membangun basis penggemar di Jepang serta kawasan Asia Tenggara.</p>
 <h2>Unit Generasi Baru NCT</h2>
@@ -501,7 +503,7 @@
 <p>Merilis album studio penuh, alih-alih EP atau mini album seperti kebanyakan comeback awal grup rookie, umumnya dianggap sebagai penanda kematangan sebuah unit dalam industri musik Korea. Pencapaian ini menegaskan perkembangan pesat NCT WISH hanya dalam kurun waktu sekitar dua tahun sejak debut mereka pada 2024, sekaligus menandai babak baru dalam perjalanan musik unit generasi terbaru NCT ini.</p>
 <p>Dengan basis penggemar yang terus bertumbuh di Jepang maupun Asia Tenggara, NCT WISH diproyeksikan menjadi salah satu unit NCT yang paling aktif sepanjang rangkaian perayaan 10 tahun NCT 2026.</p>
 <p>Perkembangan ini juga menegaskan bahwa unit generasi baru seperti NCT WISH mampu mengimbangi ritme aktivitas unit-unit senior lain di dalam sistem NCT, sekaligus membuktikan strategi regenerasi grup ini berjalan dengan baik selama satu dekade terakhir perjalanan NCT secara keseluruhan.</p>
-<p>Informasi lengkap mengenai rangkaian tur ini dapat dilihat pada <a href="https://example.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>]]></content:encoded>
+<p>Informasi lengkap mengenai rangkaian tur ini dapat dilihat pada <a href="https://nctfanbase.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[NCT WISH resmi merilis album studio penuh pertama mereka pada 20 April 2026, menjadi pencapaian besar sejak debut unit ini pada tahun 2024.]]></excerpt:encoded>
 		<wp:post_id>203</wp:post_id>
 		<wp:post_date><![CDATA[2026-04-20 09:00:00]]></wp:post_date>
@@ -526,10 +528,10 @@
 
 	<item>
 		<title>NCT 127 Umumkan Comeback Full Album Kuartal III 2026</title>
-		<link>https://example.com/nct-127-umumkan-comeback-kuartal-3-2026/</link>
+		<link>https://nctfanbase.com/nct-127-umumkan-comeback-kuartal-3-2026/</link>
 		<pubDate>Wed, 06 May 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=204</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=204</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>SM Entertainment mengumumkan bahwa NCT 127 akan melakukan comeback dengan sebuah full album pada kuartal ketiga tahun 2026, menjadi comeback pertama unit ini dalam kurang lebih dua tahun terakhir.</p>
 <h2>Salah Satu Unit Inti NCT</h2>
@@ -540,7 +542,7 @@
 <p>Sepanjang perjalanannya, NCT 127 telah menggelar sejumlah tur dunia yang menyinggahi berbagai kota di Asia, Amerika, dan Eropa, menjadikannya salah satu unit NCT dengan jangkauan penggemar internasional terluas. Comeback kali ini pun dinantikan sebagai penanda babak baru bagi grup setelah perubahan formasi yang terjadi awal tahun.</p>
 <p>Sebagai salah satu unit paling senior dalam sistem NCT, setiap comeback NCT 127 selalu menjadi sorotan besar bagi penggemar, terlebih dengan status comeback ini sebagai bagian resmi dari rangkaian perayaan 10 tahun NCT 2026.</p>
 <p>Comeback ini juga akan menjadi tolok ukur penting untuk melihat bagaimana NCT 127 beradaptasi dengan formasi barunya di panggung musik utama, setelah sebelumnya lebih banyak tampil melalui berbagai promosi dan penampilan pendukung. Para penggemar pun menantikan bagaimana ketujuh anggota akan menghadirkan konsep musik dan panggung yang segar pada comeback mendatang.</p>
-<p>NCT Fanbase akan terus memantau perkembangan comeback ini dan membagikan informasi lebih lanjut begitu detail resmi diumumkan melalui <a href="https://example.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>]]></content:encoded>
+<p>NCT Fanbase akan terus memantau perkembangan comeback ini dan membagikan informasi lebih lanjut begitu detail resmi diumumkan melalui <a href="https://nctfanbase.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[SM Entertainment mengonfirmasi NCT 127 akan comeback dengan full album pada kuartal ketiga 2026, comeback pertama grup ini dalam dua tahun terakhir.]]></excerpt:encoded>
 		<wp:post_id>204</wp:post_id>
 		<wp:post_date><![CDATA[2026-05-06 09:00:00]]></wp:post_date>
@@ -565,10 +567,10 @@
 
 	<item>
 		<title>NCT Buka Pop-up Store Spesial NCT 2026 di Seoul</title>
-		<link>https://example.com/nct-buka-pop-up-store-nct-2026-seoul/</link>
+		<link>https://nctfanbase.com/nct-buka-pop-up-store-nct-2026-seoul/</link>
 		<pubDate>Fri, 15 May 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=205</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=205</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Sebagai bagian dari rangkaian proyek perayaan 10 tahun NCT 2026, SM Entertainment menggelar pop-up store spesial bertajuk "NEO GROUND" di kawasan Gwangjin-gu, Seoul, yang berlangsung mulai 15 hingga 23 Mei 2026.</p>
 <h2>Merayakan Satu Dekade Perjalanan NCT</h2>
@@ -579,7 +581,7 @@
 <p>Bagi penggemar Indonesia yang tidak dapat hadir langsung ke Seoul, informasi dan dokumentasi acara semacam ini biasanya tetap dapat diikuti melalui liputan media K-pop internasional.</p>
 <p>Rangkaian pop-up store seperti ini kerap menjadi salah satu momen paling dinantikan dalam kalender perayaan ulang tahun sebuah grup idola, karena menghadirkan pengalaman langsung yang sulit digantikan oleh konten digital semata.</p>
 <p>Penyelenggaraan acara seperti ini sekaligus menjadi penanda bahwa rangkaian perayaan 10 tahun NCT 2026 tidak hanya berfokus pada rilisan musik, tetapi juga pada pengalaman langsung bersama penggemar dari berbagai generasi, mulai dari penggemar sejak debut 2016 hingga penggemar unit-unit termuda seperti NCT WISH dan NCT JNJM yang baru bergabung dalam beberapa tahun terakhir.</p>
-<p>Untuk mengikuti agenda-agenda lain dalam rangkaian besar NCT 2026 sepanjang tahun ini, kunjungi <a href="https://example.com/schedule/">halaman Schedule NCT Fanbase</a> yang terus kami perbarui secara berkala.</p>]]></content:encoded>
+<p>Untuk mengikuti agenda-agenda lain dalam rangkaian besar NCT 2026 sepanjang tahun ini, kunjungi <a href="https://nctfanbase.com/schedule/">halaman Schedule NCT Fanbase</a> yang terus kami perbarui secara berkala.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[NCT menggelar pop-up store spesial bertajuk NCT 2026 di Seoul mulai 15 hingga 23 Mei 2026, sebagai bagian dari rangkaian perayaan 10 tahun NCT.]]></excerpt:encoded>
 		<wp:post_id>205</wp:post_id>
 		<wp:post_date><![CDATA[2026-05-15 09:00:00]]></wp:post_date>
@@ -604,10 +606,10 @@
 
 	<item>
 		<title>WayV Siapkan Comeback Album dan Tur Kuartal III 2026</title>
-		<link>https://example.com/wayv-siapkan-comeback-album-dan-tur/</link>
+		<link>https://nctfanbase.com/wayv-siapkan-comeback-album-dan-tur/</link>
 		<pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=206</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=206</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>WayV, unit NCT yang berbasis dan aktif terutama di pasar musik Tiongkok, dikabarkan akan melakukan comeback dengan album baru sekaligus menggelar tur pada kuartal ketiga tahun 2026 mendatang.</p>
 <h2>Identitas Musik yang Khas</h2>
@@ -618,7 +620,7 @@
 <p>Keberadaan WayV memungkinkan NCT menjangkau basis penggemar berbahasa Mandarin secara lebih spesifik, sekaligus memperkuat citra NCT sebagai grup dengan jangkauan pasar musik yang benar-benar lintas negara. Pendekatan berbasis wilayah semacam ini menjadi salah satu ciri khas sistem NCT yang membedakannya dari kebanyakan grup idola lain, sekaligus memperlihatkan strategi ekspansi pasar yang matang sejak awal pembentukan grup ini pada 2016 hingga saat ini di berbagai penjuru dunia.</p>
 <p>Comeback WayV kali ini juga dinantikan sebagai salah satu agenda penting dalam rangkaian NCT 2026, mengingat unit ini belum lama menggelar aktivitas comeback besar.</p>
 <p>Dengan basis penggemar yang loyal di kawasan Tiongkok dan Asia Tenggara, comeback WayV berpotensi menghadirkan salah satu momen paling dinantikan dalam rangkaian besar NCT 2026 tahun ini, terlebih dengan identitas musik khas yang selama ini menjadi ciri utama unit ini sejak pertama kali diperkenalkan kepada publik pada tahun 2019 silam.</p>
-<p>Susunan lengkap anggota WayV dapat dilihat pada <a href="https://example.com/profil/">halaman Profil NCT Fanbase</a>, sementara jadwal lengkap comeback ini akan segera diperbarui pada halaman Schedule begitu tanggal resmi diumumkan oleh pihak agensi kepada publik secara luas.</p>]]></content:encoded>
+<p>Susunan lengkap anggota WayV dapat dilihat pada <a href="https://nctfanbase.com/profil/">halaman Profil NCT Fanbase</a>, sementara jadwal lengkap comeback ini akan segera diperbarui pada halaman Schedule begitu tanggal resmi diumumkan oleh pihak agensi kepada publik secara luas.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[WayV dikabarkan akan comeback dengan album baru sekaligus menggelar tur pada kuartal ketiga 2026, sebagai bagian dari proyek ulang tahun NCT 2026.]]></excerpt:encoded>
 		<wp:post_id>206</wp:post_id>
 		<wp:post_date><![CDATA[2026-04-11 09:00:00]]></wp:post_date>
@@ -643,10 +645,10 @@
 
 	<item>
 		<title>NCT DREAM Siapkan Meet &amp; Greet dan Album Baru 2026</title>
-		<link>https://example.com/nct-dream-siapkan-meet-and-greet-album-baru/</link>
+		<link>https://nctfanbase.com/nct-dream-siapkan-meet-and-greet-album-baru/</link>
 		<pubDate>Sun, 12 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=207</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=207</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>NCT DREAM dijadwalkan menggelar acara meet & greet untuk para penggemar pada kuartal ketiga 2026, sebelum melanjutkan dengan perilisan album baru pada kuartal keempat tahun yang sama.</p>
 <h2>Dari Unit Sementara Menjadi Unit Tetap</h2>
@@ -659,7 +661,7 @@
 <p>Kombinasi acara meet & greet dan comeback album pada tahun yang sama menjadikan 2026 sebagai salah satu tahun paling aktif bagi NCT DREAM, sejalan dengan rangkaian besar perayaan 10 tahun NCT 2026 yang turut melibatkan hampir seluruh sub-unit.</p>
 <p>Format acara meet & greet yang mendahului perilisan album juga kerap digunakan sebagai cara membangun kedekatan dengan penggemar sebelum promosi comeback besar dimulai secara penuh, sekaligus menjadi ajang pemanasan sebelum rangkaian promosi album baru bergulir pada kuartal keempat mendatang.</p>
 <p>Format seperti ini juga memberi ruang bagi NCT DREAM untuk berinteraksi lebih personal dengan penggemar sebelum kembali disibukkan dengan jadwal promosi comeback yang biasanya cukup padat dan menyita banyak waktu.</p>
-<p>Pantau terus perkembangan jadwal lengkap NCT DREAM melalui <a href="https://example.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>]]></content:encoded>
+<p>Pantau terus perkembangan jadwal lengkap NCT DREAM melalui <a href="https://nctfanbase.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[NCT DREAM dijadwalkan menggelar meet & greet pada kuartal ketiga, dilanjutkan perilisan album baru pada kuartal keempat 2026.]]></excerpt:encoded>
 		<wp:post_id>207</wp:post_id>
 		<wp:post_date><![CDATA[2026-04-12 09:00:00]]></wp:post_date>
@@ -684,10 +686,10 @@
 
 	<item>
 		<title>Yuta NCT 127 Bintangi Lagu Tema Kamen Rider Zets</title>
-		<link>https://example.com/yuta-bintangi-lagu-tema-kamen-rider-zets/</link>
+		<link>https://nctfanbase.com/yuta-bintangi-lagu-tema-kamen-rider-zets/</link>
 		<pubDate>Sun, 28 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=208</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=208</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Di tengah kesibukan NCT 127 menyiapkan comeback grup, Yuta turut aktif menjalani kegiatan solo di Jepang. Ia membawakan "LAY BACK", lagu tema untuk chapter baru serial tokusatsu Kamen Rider Zets di TV Asahi.</p>
 <h2>Aktivitas Solo di Tanah Kelahiran</h2>
@@ -700,7 +702,7 @@
 <p>Di industri musik Korea, aktivitas solo anggota di sela masa persiapan comeback grup cukup lazim dilakukan, terutama bagi anggota yang memiliki keterampilan bahasa maupun jaringan industri di negara tertentu. Bagi Yuta, keterlibatannya dalam berbagai proyek televisi Jepang turut menjaga visibilitas NCT 127 secara keseluruhan menjelang comeback besar mereka pada kuartal ketiga 2026.</p>
 <p>Rangkaian aktivitas solo semacam ini juga memperlihatkan bagaimana anggota NCT 127 tetap produktif secara individu di berbagai belahan dunia, sekaligus membangun antisipasi lebih besar menjelang comeback penuh grup mendatang.</p>
 <p>Bagi penggemar internasional, aktivitas solo seperti ini juga menjadi kesempatan untuk mengenal lebih jauh sisi lain dari masing-masing anggota di luar panggung NCT 127, sekaligus memperlihatkan keluwesan Yuta dalam berbagai bidang hiburan di Jepang, mulai dari musik, akting lewat tie-in serial televisi, hingga program variety show populer.</p>
-<p>Ikuti terus kabar member lainnya, termasuk seluruh anggota NCT 127 yang lain, melalui <a href="https://example.com/profil/">halaman Profil NCT Fanbase</a> yang senantiasa diperbarui secara berkala oleh tim redaksi kami.</p>]]></content:encoded>
+<p>Ikuti terus kabar member lainnya, termasuk seluruh anggota NCT 127 yang lain, melalui <a href="https://nctfanbase.com/profil/">halaman Profil NCT Fanbase</a> yang senantiasa diperbarui secara berkala oleh tim redaksi kami.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[Yuta dari NCT 127 membawakan LAY BACK, lagu tema serial Kamen Rider Zets, sekaligus tampil di sejumlah program televisi Jepang pertengahan 2026.]]></excerpt:encoded>
 		<wp:post_id>208</wp:post_id>
 		<wp:post_date><![CDATA[2026-06-28 09:00:00]]></wp:post_date>
@@ -725,10 +727,10 @@
 
 	<item>
 		<title>NCT WISH Rilis Single Jepang &#8220;YO-I-DON! / BOY MEETS GIRL&#8221;</title>
-		<link>https://example.com/nct-wish-rilis-single-jepang-yo-i-don-boy-meets-girl/</link>
+		<link>https://nctfanbase.com/nct-wish-rilis-single-jepang-yo-i-don-boy-meets-girl/</link>
 		<pubDate>Thu, 02 Jul 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=209</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=209</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>NCT WISH dijadwalkan merilis double A-side single berbahasa Jepang bertajuk "YO-I-DON! / BOY MEETS GIRL" pada 15 Juli 2026, melanjutkan rangkaian aktivitas mereka di Jepang sepanjang tahun ini.</p>
 <h2>Kelanjutan dari Album Studio Pertama</h2>
@@ -741,7 +743,7 @@
 <p>Padatnya jadwal rilis dan penampilan di Jepang menegaskan posisi negara tersebut sebagai salah satu pasar utama bagi NCT WISH, sejalan dengan basis pembentukan unit ini yang memang dirancang untuk aktif di kawasan tersebut sejak awal debut pada 2024. Bagi penggemar di Indonesia, single berbahasa Jepang seperti ini umumnya tetap dapat dinikmati melalui berbagai platform streaming musik digital.</p>
 <p>Dengan jadwal rilis yang berdekatan antara album studio, single Jepang, hingga penampilan di berbagai acara musim panas, tahun 2026 menjadi salah satu periode paling produktif bagi NCT WISH sejak debut mereka.</p>
 <p>Konsistensi aktivitas semacam ini juga membantu NCT WISH memperluas pengenalan nama mereka di pasar musik Jepang yang dikenal cukup kompetitif, sekaligus memperkuat posisi mereka sebagai salah satu unit NCT dengan pertumbuhan tercepat. Popularitas yang terus meningkat ini turut membuka peluang lebih besar bagi NCT WISH untuk memperluas jangkauan tur mereka ke lebih banyak negara pada masa mendatang, termasuk kemungkinan kembali menyambangi Asia Tenggara.</p>
-<p>Jadwal lengkap seluruh aktivitas NCT WISH, termasuk rangkaian tur konser mereka, dapat dilihat pada <a href="https://example.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>]]></content:encoded>
+<p>Jadwal lengkap seluruh aktivitas NCT WISH, termasuk rangkaian tur konser mereka, dapat dilihat pada <a href="https://nctfanbase.com/schedule/">halaman Schedule NCT Fanbase</a>.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[NCT WISH akan merilis double A-side single Jepang YO-I-DON! / BOY MEETS GIRL pada 15 Juli 2026, lengkap dengan acara jumpa penggemar khusus.]]></excerpt:encoded>
 		<wp:post_id>209</wp:post_id>
 		<wp:post_date><![CDATA[2026-07-02 09:00:00]]></wp:post_date>
@@ -770,10 +772,10 @@
 
 	<item>
 		<title>Home</title>
-		<link>https://example.com/home/</link>
+		<link>https://nctfanbase.com/home/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=300</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?page_id=300</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Halaman ini digunakan sebagai penanda teknis untuk pengaturan Settings &gt; Reading &gt; Homepage. Tampilan situs sesungguhnya diambil alih sepenuhnya oleh front-page.php pada tema, sehingga isi halaman ini tidak pernah ditampilkan kepada pengunjung.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -795,10 +797,10 @@
 
 	<item>
 		<title>News</title>
-		<link>https://example.com/news/</link>
+		<link>https://nctfanbase.com/news/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=301</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?page_id=301</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Halaman ini digunakan sebagai penanda teknis untuk Settings &gt; Reading &gt; Posts page. Tampilan daftar berita sesungguhnya diambil alih sepenuhnya oleh home.php pada tema, sehingga isi halaman ini tidak pernah ditampilkan kepada pengunjung.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[Seluruh berita dan pengumuman dari NCT Fanbase]]></excerpt:encoded>
@@ -820,10 +822,10 @@
 
 	<item>
 		<title>Profil</title>
-		<link>https://example.com/profil/</link>
+		<link>https://nctfanbase.com/profil/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=302</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?page_id=302</guid>
 		<description></description>
 		<content:encoded><![CDATA[<div class="overview-grid">
 <div>
@@ -916,10 +918,10 @@
 
 	<item>
 		<title>About Us</title>
-		<link>https://example.com/about-us/</link>
+		<link>https://nctfanbase.com/about-us/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=303</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?page_id=303</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>NCT Fanbase merupakan komunitas penggemar independen yang dikelola oleh dan untuk penggemar NCT di Indonesia. Kami hadir sebagai wadah bagi siapa pun yang ingin mengikuti kabar, informasi, dan agenda kegiatan komunitas dengan cara yang sederhana dan nyaman.</p>
 <h2>Latar Belakang</h2>
@@ -947,10 +949,10 @@
 
 	<item>
 		<title>Contact Us</title>
-		<link>https://example.com/contact-us/</link>
+		<link>https://nctfanbase.com/contact-us/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=304</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?page_id=304</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Untuk pertanyaan umum, masukan, maupun laporan terkait konten website NCT Fanbase, silakan hubungi kami melalui email berikut:</p>
 <p class="contact-page__email">[nct_contact_email]</p>
@@ -974,10 +976,10 @@
 
 	<item>
 		<title>Disclaimer</title>
-		<link>https://example.com/disclaimer/</link>
+		<link>https://nctfanbase.com/disclaimer/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=305</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?page_id=305</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>NCT Fanbase (&#8220;kami&#8221;) adalah website komunitas penggemar yang dikelola secara independen dan tidak berafiliasi, disponsori, atau didukung secara resmi oleh NCT, para anggotanya, SM Entertainment, maupun pihak manajemen resmi lainnya.</p>
 <h2>Status Situs</h2>
@@ -1009,10 +1011,10 @@
 
 	<item>
 		<title>Privacy Policy</title>
-		<link>https://example.com/privacy-policy/</link>
+		<link>https://nctfanbase.com/privacy-policy/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=306</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?page_id=306</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Kebijakan privasi ini menjelaskan bagaimana NCT Fanbase memperlakukan informasi yang diperoleh dari pengunjung website ini. Dengan mengakses dan menggunakan website ini, Anda dianggap menyetujui praktik yang dijelaskan dalam kebijakan ini.</p>
 <h2>Informasi yang Dikumpulkan</h2>
@@ -1046,10 +1048,10 @@
 
 	<item>
 		<title>Terms &amp; Conditions</title>
-		<link>https://example.com/terms-and-conditions/</link>
+		<link>https://nctfanbase.com/terms-and-conditions/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?page_id=307</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?page_id=307</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Dengan mengakses dan menggunakan website NCT Fanbase, pengunjung dianggap telah membaca, memahami, dan menyetujui syarat dan ketentuan berikut ini.</p>
 <h2>Penggunaan Situs</h2>
@@ -1085,10 +1087,10 @@
 
 	<item>
 		<title>NCT WISH 1st Concert Tour &#8220;INTO THE WISH: Our WISH&#8221; &#8212; Jakarta</title>
-		<link>https://example.com/schedule-item/nct-wish-1st-concert-tour-jakarta/</link>
+		<link>https://nctfanbase.com/schedule-item/nct-wish-1st-concert-tour-jakarta/</link>
 		<pubDate>Sat, 11 Apr 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?post_type=nct_schedule&#38;p=400</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?post_type=nct_schedule&#38;p=400</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>NCT WISH menggelar konser di Hall 5, Indonesia Convention Exhibition (ICE BSD City), sebagai salah satu titik pemberhentian Asia Tenggara dalam rangkaian tur konser pertama mereka.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[NCT WISH menggelar konser di Hall 5, Indonesia Convention Exhibition (ICE BSD City), sebagai salah satu titik pemberhentian Asia Tenggara dalam rangkaian tur konser pertama mereka.]]></excerpt:encoded>
@@ -1113,10 +1115,10 @@
 
 	<item>
 		<title>NCT JNJM Fanmeeting Tour &#8220;DUALITY&#8221; &#8212; Seoul</title>
-		<link>https://example.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-seoul/</link>
+		<link>https://nctfanbase.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-seoul/</link>
 		<pubDate>Sat, 13 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?post_type=nct_schedule&#38;p=401</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?post_type=nct_schedule&#38;p=401</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Rangkaian pembuka fan meeting tour Asia pertama NCT JNJM (Jeno &#38; Jaemin) digelar di Jamsil Indoor Stadium, Seoul.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[Rangkaian pembuka fan meeting tour Asia pertama NCT JNJM (Jeno & Jaemin) digelar di Jamsil Indoor Stadium, Seoul.]]></excerpt:encoded>
@@ -1142,10 +1144,10 @@
 
 	<item>
 		<title>NCT JNJM Fanmeeting Tour &#8220;DUALITY&#8221; &#8212; Tokyo</title>
-		<link>https://example.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-tokyo/</link>
+		<link>https://nctfanbase.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-tokyo/</link>
 		<pubDate>Sat, 27 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?post_type=nct_schedule&#38;p=402</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?post_type=nct_schedule&#38;p=402</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Kelanjutan fan meeting tour "DUALITY" NCT JNJM di Tokyo, Jepang.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[Kelanjutan fan meeting tour "DUALITY" NCT JNJM di Tokyo, Jepang.]]></excerpt:encoded>
@@ -1171,10 +1173,10 @@
 
 	<item>
 		<title>NCT JNJM Fanmeeting Tour &#8220;DUALITY&#8221; &#8212; Jakarta</title>
-		<link>https://example.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-jakarta/</link>
+		<link>https://nctfanbase.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-jakarta/</link>
 		<pubDate>Sat, 04 Jul 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?post_type=nct_schedule&#38;p=403</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?post_type=nct_schedule&#38;p=403</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>NCT JNJM menyapa penggemar Indonesia dalam rangkaian fan meeting tour "DUALITY", menjadikan Jakarta salah satu dari enam kota yang dikunjungi di Asia.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[NCT JNJM menyapa penggemar Indonesia dalam rangkaian fan meeting tour "DUALITY", menjadikan Jakarta salah satu dari enam kota yang dikunjungi di Asia.]]></excerpt:encoded>
@@ -1200,10 +1202,10 @@
 
 	<item>
 		<title>NCT JNJM Fanmeeting Tour &#8220;DUALITY&#8221; &#8212; Macau</title>
-		<link>https://example.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-macau/</link>
+		<link>https://nctfanbase.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-macau/</link>
 		<pubDate>Sat, 11 Jul 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?post_type=nct_schedule&#38;p=404</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?post_type=nct_schedule&#38;p=404</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Lanjutan fan meeting tour "DUALITY" NCT JNJM di Macau.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lanjutan fan meeting tour "DUALITY" NCT JNJM di Macau.]]></excerpt:encoded>
@@ -1229,10 +1231,10 @@
 
 	<item>
 		<title>NCT JNJM Fanmeeting Tour &#8220;DUALITY&#8221; &#8212; Kaohsiung</title>
-		<link>https://example.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-kaohsiung/</link>
+		<link>https://nctfanbase.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-kaohsiung/</link>
 		<pubDate>Sat, 18 Jul 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?post_type=nct_schedule&#38;p=405</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?post_type=nct_schedule&#38;p=405</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Lanjutan fan meeting tour "DUALITY" NCT JNJM di Kaohsiung, Taiwan.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[Lanjutan fan meeting tour "DUALITY" NCT JNJM di Kaohsiung, Taiwan.]]></excerpt:encoded>
@@ -1257,10 +1259,10 @@
 
 	<item>
 		<title>NCT JNJM Fanmeeting Tour &#8220;DUALITY&#8221; &#8212; Bangkok</title>
-		<link>https://example.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-bangkok/</link>
+		<link>https://nctfanbase.com/schedule-item/nct-jnjm-fanmeeting-tour-duality-bangkok/</link>
 		<pubDate>Sat, 08 Aug 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?post_type=nct_schedule&#38;p=406</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?post_type=nct_schedule&#38;p=406</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>Penutup rangkaian fan meeting tour "DUALITY" NCT JNJM di Bangkok, Thailand.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[Penutup rangkaian fan meeting tour "DUALITY" NCT JNJM di Bangkok, Thailand.]]></excerpt:encoded>
@@ -1285,10 +1287,10 @@
 
 	<item>
 		<title>NCT 127 &#8212; Comeback Full Album</title>
-		<link>https://example.com/schedule-item/nct-127-comeback-full-album/</link>
+		<link>https://nctfanbase.com/schedule-item/nct-127-comeback-full-album/</link>
 		<pubDate>Sat, 01 Aug 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?post_type=nct_schedule&#38;p=407</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?post_type=nct_schedule&#38;p=407</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>SM Entertainment mengonfirmasi NCT 127 akan comeback dengan full album pertama dalam dua tahun terakhir, sekaligus menjadi bagian dari proyek perayaan 10 tahun NCT. Tanggal rilis pasti belum diumumkan resmi.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[SM Entertainment mengonfirmasi NCT 127 akan comeback dengan full album pertama dalam dua tahun terakhir, sekaligus menjadi bagian dari proyek perayaan 10 tahun NCT.]]></excerpt:encoded>
@@ -1314,10 +1316,10 @@
 
 	<item>
 		<title>NCT DREAM &#8212; Meet &amp; Greet dan Album Baru</title>
-		<link>https://example.com/schedule-item/nct-dream-meet-greet-dan-album-baru/</link>
+		<link>https://nctfanbase.com/schedule-item/nct-dream-meet-greet-dan-album-baru/</link>
 		<pubDate>Sat, 15 Aug 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?post_type=nct_schedule&#38;p=408</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?post_type=nct_schedule&#38;p=408</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>NCT DREAM dijadwalkan menggelar acara meet & greet pada kuartal ketiga, dilanjutkan dengan perilisan album baru pada kuartal keempat 2026.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[NCT DREAM dijadwalkan menggelar acara meet & greet pada kuartal ketiga, dilanjutkan dengan perilisan album baru pada kuartal keempat 2026.]]></excerpt:encoded>
@@ -1343,10 +1345,10 @@
 
 	<item>
 		<title>Proyek 10 Tahun &#8220;NCT 2026&#8221;</title>
-		<link>https://example.com/schedule-item/proyek-10-tahun-nct-2026/</link>
+		<link>https://nctfanbase.com/schedule-item/proyek-10-tahun-nct-2026/</link>
 		<pubDate>Tue, 01 Sep 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?post_type=nct_schedule&#38;p=409</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?post_type=nct_schedule&#38;p=409</guid>
 		<description></description>
 		<content:encoded><![CDATA[<p>SM Entertainment merayakan satu dekade perjalanan NCT melalui proyek "NCT 2026" dengan slogan "Everything, All At Once, Neo", mencakup rangkaian album, tur, dan pop-up store sepanjang tahun.</p>]]></content:encoded>
 		<excerpt:encoded><![CDATA[SM Entertainment merayakan satu dekade perjalanan NCT melalui proyek "NCT 2026" dengan slogan "Everything, All At Once, Neo".]]></excerpt:encoded>
@@ -1383,10 +1385,10 @@
 
 	<item>
 		<title>News</title>
-		<link>https://example.com/news/</link>
+		<link>https://nctfanbase.com/news/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=500</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=500</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1407,15 +1409,15 @@
 		<wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value><![CDATA[500]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
-		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://example.com/news/]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://nctfanbase.com/news/]]></wp:meta_value></wp:postmeta>
 	</item>
 
 	<item>
 		<title>Profil</title>
-		<link>https://example.com/profil/</link>
+		<link>https://nctfanbase.com/profil/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=501</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=501</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1436,15 +1438,15 @@
 		<wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value><![CDATA[501]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
-		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://example.com/profil/]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://nctfanbase.com/profil/]]></wp:meta_value></wp:postmeta>
 	</item>
 
 	<item>
 		<title>Schedule</title>
-		<link>https://example.com/schedule/</link>
+		<link>https://nctfanbase.com/schedule/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=502</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=502</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1465,15 +1467,15 @@
 		<wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value><![CDATA[502]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
-		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://example.com/schedule/]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://nctfanbase.com/schedule/]]></wp:meta_value></wp:postmeta>
 	</item>
 
 	<item>
 		<title>Disclaimer</title>
-		<link>https://example.com/disclaimer/</link>
+		<link>https://nctfanbase.com/disclaimer/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=503</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=503</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1494,15 +1496,15 @@
 		<wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value><![CDATA[503]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
-		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://example.com/disclaimer/]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://nctfanbase.com/disclaimer/]]></wp:meta_value></wp:postmeta>
 	</item>
 
 	<item>
 		<title>About Us</title>
-		<link>https://example.com/about-us/</link>
+		<link>https://nctfanbase.com/about-us/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=504</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=504</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1523,15 +1525,15 @@
 		<wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value><![CDATA[504]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
-		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://example.com/about-us/]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://nctfanbase.com/about-us/]]></wp:meta_value></wp:postmeta>
 	</item>
 
 	<item>
 		<title>Contact Us</title>
-		<link>https://example.com/contact-us/</link>
+		<link>https://nctfanbase.com/contact-us/</link>
 		<pubDate>Mon, 01 Jun 2026 09:00:00 +0000</pubDate>
 		<dc:creator><![CDATA[nctfanbase]]></dc:creator>
-		<guid isPermaLink="false">https://example.com/?p=505</guid>
+		<guid isPermaLink="false">https://nctfanbase.com/?p=505</guid>
 		<description></description>
 		<content:encoded><![CDATA[]]></content:encoded>
 		<excerpt:encoded><![CDATA[]]></excerpt:encoded>
@@ -1552,7 +1554,7 @@
 		<wp:postmeta><wp:meta_key>_menu_item_object</wp:meta_key><wp:meta_value><![CDATA[custom]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_object_id</wp:meta_key><wp:meta_value><![CDATA[505]]></wp:meta_value></wp:postmeta>
 		<wp:postmeta><wp:meta_key>_menu_item_menu_item_parent</wp:meta_key><wp:meta_value><![CDATA[0]]></wp:meta_value></wp:postmeta>
-		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://example.com/contact-us/]]></wp:meta_value></wp:postmeta>
+		<wp:postmeta><wp:meta_key>_menu_item_url</wp:meta_key><wp:meta_value><![CDATA[https://nctfanbase.com/contact-us/]]></wp:meta_value></wp:postmeta>
 	</item>
 
 </channel>

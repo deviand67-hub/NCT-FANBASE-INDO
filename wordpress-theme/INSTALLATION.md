@@ -25,17 +25,17 @@ wordpress-theme/
 ## 3. Prepare the demo content file before importing
 
 The WXR file (`nct-fanbase-content.xml`) references image and link URLs
-using the placeholder domain `https://example.com`. **Before importing**,
-open the file in a text editor and replace every occurrence of
-`https://example.com` with your actual site URL (e.g.
-`https://nctfanbase.id`) — a simple find-and-replace across the whole file
-is enough, since the placeholder is used consistently.
+using the domain `https://nctfanbase.com`. **If your real site's domain is
+exactly `nctfanbase.com`, skip this step.** Otherwise, open the file in a
+text editor and replace every occurrence of `https://nctfanbase.com` with
+your actual site URL — a simple find-and-replace across the whole file is
+enough, since the domain is used consistently throughout.
 
 This step matters most for the ten News post featured images: they're
-referenced as `https://example.com/wp-content/themes/nct-fanbase-theme/assets/images/news/...jpg`,
+referenced as `https://nctfanbase.com/wp-content/themes/nct-fanbase-theme/assets/images/news/...jpg`,
 and the WordPress importer fetches attachments from that literal URL at
-import time — if it still points at `example.com` the images will fail to
-import.
+import time — if it still points at the wrong domain, the images will fail
+to import.
 
 ## 4. Import the demo content
 
@@ -109,10 +109,10 @@ Terdekat" preview pulling from the imported Schedule items.
 ## Troubleshooting
 
 - **Featured images missing after import** — you likely imported before
-  replacing the `example.com` placeholder domain, or without checking
-  "Download and import file attachments". Delete the imported posts and
-  re-import after fixing the URL, or manually set featured images from
-  `wp-content/themes/nct-fanbase-theme/assets/images/news/`.
+  replacing the `nctfanbase.com` domain with your real domain, or without
+  checking "Download and import file attachments". Delete the imported
+  posts and re-import after fixing the URL, or manually set featured
+  images from `wp-content/themes/nct-fanbase-theme/assets/images/news/`.
 - **Schedule page 404s** — go to Settings → Permalinks and click Save
   Changes once to flush rewrite rules for the `nct_schedule` post type.
 - **Menu not showing** — confirm it's assigned to the "Primary Menu"
