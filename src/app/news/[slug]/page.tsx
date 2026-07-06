@@ -7,6 +7,7 @@ import CategoryBadge from "@/components/CategoryBadge";
 import NewsCard from "@/components/NewsCard";
 import { getAllNews, getNewsBySlug } from "@/lib/news-data";
 import { formatDate } from "@/lib/format-date";
+import { renderArticleContent } from "@/lib/render-content";
 
 export function generateStaticParams() {
   return getAllNews().map((item) => ({ slug: item.slug }));
@@ -96,11 +97,7 @@ export default async function NewsDetailPage({
           />
         </div>
 
-        <div className="prose-article text-neutral-800">
-          {item.content.map((paragraph, idx) => (
-            <p key={idx}>{paragraph}</p>
-          ))}
-        </div>
+        <div className="prose-article text-neutral-800">{renderArticleContent(item.content)}</div>
       </article>
 
       {related.length > 0 && (
